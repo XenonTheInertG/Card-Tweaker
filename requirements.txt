@@ -1,0 +1,3 @@
+aiogram
+bs4
+requests
