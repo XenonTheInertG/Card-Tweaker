@@ -174,7 +174,7 @@ async def ch(message: types.Message):
         "https://new-integration.adblockplus.org/", data=payload, headers=head
     )
     client = re.text
-    pi = client[0:27]
+    pi = client[:27]
 
     # hmm
     load = {
